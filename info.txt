@@ -1,0 +1,20 @@
+
+  - get data box -> Select from file -> select from txt/csv -> ????
+
+
+- first method ->
+  - Go to the file tab ->
+    - go to options -> select data -> see "show legacy data ..." -> select from text -> come back  to the data tab ->
+      - select legacy wizards -> select from txt (legacy) -> select your file from appropriate path 
+      - There are 3 steps -> 
+        - step 1 -> Determine which sign (comma, semicolon) are considered as a column -> select delimited option -> hit next
+          - point : the fixed width -> you can choose the width of column 
+        - step 2 ->  click tab for delimiter -> click next -> 
+        - step 3 -> you can select the format of the column -> press finish -> 
+        - In the next window -> You can select put in the current worksheet or new doc -> *** important : click properties -> 
+          - unchecked query definition -> help us to extract simple data no links etc... 
+
+
+- New version of extract data  from csv -> 
+  - go to data tab -> go to from text/csv -> navigate to location of your file -> double click on considered file (you can set parameters such as delimiter etc...)
+  - press load -> You can see table with its connection 
